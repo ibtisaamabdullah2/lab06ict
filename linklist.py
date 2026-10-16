@@ -59,7 +59,7 @@ class linklist():
                 print("item removed")
     def traverse(self):
         if self.__head==-1:
-            print("empty")
+            print("the list is empty")
         else:
             current=self.__head
             while current!=-1:
