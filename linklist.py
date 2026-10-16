@@ -21,6 +21,7 @@ class linklist():
     def addnode(self,data):
         if self.__freelist==-1:
             print("no node available in this list")
+            print(" remove something from thelist")
         else:
             new=self.__freelist
             self.__freelist=self.__list[self.__freelist].getpointer()
@@ -75,7 +76,7 @@ class linklist():
                     found=True
                 current=self.__list[current].getpointer()
         return found    
-            
+print(" name is students")         
             
             
             
