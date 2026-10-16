@@ -76,7 +76,7 @@ class linklist():
                     found=True
                 current=self.__list[current].getpointer()
         return found    
-            
+print(" name is students")         
             
             
             
