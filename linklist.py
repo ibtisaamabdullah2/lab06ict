@@ -20,7 +20,7 @@ class linklist():
         self.__head=-1
     def addnode(self,data):
         if self.__freelist==-1:
-            print("no node available")
+            print("no node available in this list")
         else:
             new=self.__freelist
             self.__freelist=self.__list[self.__freelist].getpointer()
